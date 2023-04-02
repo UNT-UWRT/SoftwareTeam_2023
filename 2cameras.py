@@ -1,7 +1,7 @@
 import cv2
 
 cam1 = cv2.VideoCapture(0)
-cam2 = cv2.VideoCapture(1)
+cam2 = cv2.VideoCapture(2)
 
 while True:
         ret1, image1 = cam1.read()
